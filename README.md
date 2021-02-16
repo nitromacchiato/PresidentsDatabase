@@ -5,7 +5,8 @@ The database is designed efficiently, and organized, to include information refe
 ## Table of Contents 
 * [Requirements](#Requirements)
 * [Installation](#Installation)
-* [Examples](#Examples)
+* [EntityRealationshipDiagram](#Entity Realationship Diagram)
+* [Views](#Views)
 
 
 
@@ -31,12 +32,24 @@ Some familiarty with MySQL and setting up a local connection
 * [PresidentDB_Quries](https://github.com/nitromacchiato/PresidentsDatabase/blob/main/PresidentDB_Queries.sql) are automatically install [PreisdentsDB](https://github.com/nitromacchiato/PresidentsDatabase/blob/main/PresidentDB.sql)
 
 
-## Examples 
+## Entity Realationship Diagram
+
+<img src="https://github.com/nitromacchiato/PresidentsDatabase/blob/main/demo/president_erd.PNG" />
 
 
 
 
-### Views 
+
+
+
+
+
+
+
+
+
+
+## Views 
 
 * How does the President’s height compare to the First Lady?
 <img src="https://github.com/nitromacchiato/PresidentsDatabase/blob/main/demo/first_lady_president_view.PNG" />
