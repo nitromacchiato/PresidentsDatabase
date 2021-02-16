@@ -35,7 +35,7 @@ Some familiarty with MySQL and setting up a local connection
 
 ### Views 
 
-How does the President’s height compare to the First Lady?
+<h3> How does the President’s height compare to the First Lady? <h3>
 
 
 <img src="https://github.com/nitromacchiato/PresidentsDatabase/blob/main/demo/first_lady_president_view.PNG" />
