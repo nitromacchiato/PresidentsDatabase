@@ -5,7 +5,7 @@ The database is designed efficiently, and organized, to include information refe
 ## Table of Contents 
 * [Requirements](#Requirements)
 * [Installation](#Installation)
-* [ERM](#ERM)
+* [ERD](#ERD)
 * [Views](#Views)
 
 
@@ -32,7 +32,7 @@ Some familiarity with MySQL and setting up a local connection
 * [PresidentDB_Quries](https://github.com/nitromacchiato/PresidentsDatabase/blob/main/PresidentDB_Queries.sql) are automatically install [PreisdentsDB](https://github.com/nitromacchiato/PresidentsDatabase/blob/main/PresidentDB.sql)
 
 
-## ERM
+## ERD
 
 In order to better understand and create an efficient database an ERD (Entity Relationship Diagram) was established. As the database went through modifications the main priority was applying database normalization in order to prevent repetitive data.
 
