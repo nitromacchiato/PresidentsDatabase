@@ -10,6 +10,9 @@ Our database is designed efficiently, and organized, to include information refe
 
 
 ## Requirements 
+
+Some familiarty with MySQL and setting up a local connection 
+
 * [MySQLWorkbench](https://dev.mysql.com/downloads/workbench/)
 * [MySQLCommunity](https://dev.mysql.com/downloads/mysql/)
 
