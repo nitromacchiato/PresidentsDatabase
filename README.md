@@ -7,6 +7,7 @@ The database is designed efficiently, and organized, to include information refe
 * [Installation](#Installation)
 * [ERD](#ERD)
 * [Views](#Views)
+* [Refrences](#Refrences)
 
 
 
@@ -110,3 +111,17 @@ CREATE OR REPLACE VIEW Party_control
 			  PS.political_affiliation = M.majority_senate
 		ORDER BY M.majority_house, M.majority_senate;
 ```
+
+
+
+
+
+## Refrences
+Here are the list of refrences that were used to gather the data for the database
+
+* https://millercenter.org/president 
+* https://www.presidency.ucsb.edu/statistics/data/presidential-vetoes 
+* https://www.loriferber.com/research/presidential-facts-statistics/presidential-term-dates.html 
+* https://history.house.gov/Institution/Party-Divisions/Party-Divisions/ 
+* https://www.senate.gov/history/partydiv.htm 
+* https://en.wikipedia.org/wiki/List_of_first_ladies_of_the_United_States 
