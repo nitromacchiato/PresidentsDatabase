@@ -37,9 +37,9 @@ Some familiarty with MySQL and setting up a local connection
 
 How does the President’s height compare to the First Lady?
 
-<p>
- <img src="demo/first_lady_president.png" />
-</p>
+
+![](demo/first_lady_president.png)
+
 
 ```sql 
 CREATE OR REPLACE VIEW President_VS_Lady_height
