@@ -10,8 +10,8 @@ Our database is designed efficiently, and organized, to include information refe
 
 
 ## Requirements 
-[MySQLWorkbench](https://dev.mysql.com/downloads/workbench/)
-[MySQLCommunity](https://dev.mysql.com/downloads/mysql/)
+* [MySQLWorkbench](https://dev.mysql.com/downloads/workbench/)
+* [MySQLCommunity](https://dev.mysql.com/downloads/mysql/)
 
 
 ## Installation 
