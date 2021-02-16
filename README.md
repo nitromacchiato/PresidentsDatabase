@@ -38,7 +38,7 @@ Some familiarty with MySQL and setting up a local connection
 How does the President’s height compare to the First Lady?
 
 
-![](demo/first_lady_president.png)
+<img src="demo/first_lady_president.png" />
 
 
 ```sql 
