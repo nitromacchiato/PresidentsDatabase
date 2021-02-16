@@ -38,11 +38,8 @@ Some familiarty with MySQL and setting up a local connection
 
 ### Views 
 
-How does the President’s height compare to the First Lady?
-
-
+* How does the President’s height compare to the First Lady?
 <img src="https://github.com/nitromacchiato/PresidentsDatabase/blob/main/demo/first_lady_president_view.PNG" />
-
 
 ```sql 
 CREATE OR REPLACE VIEW President_VS_Lady_height
@@ -57,17 +54,14 @@ CREATE OR REPLACE VIEW President_VS_Lady_height
 		ORDER BY PI.height DESC, FL.height DESC;
 
 ```
-
-
 </br>
 
 
 
 
-How does the Presidents age compare to the Vice presidents at the end of their terms through the years of presidency?
+* How does the Presidents age compare to the Vice presidents at the end of their terms through the years of presidency?
 </br>
 <img src="https://github.com/nitromacchiato/PresidentsDatabase/blob/main/demo/avg_pres_age.PNG" />
-
 
 ```sql
 CREATE OR REPLACE VIEW Avg_pres_age
@@ -83,16 +77,14 @@ CREATE OR REPLACE VIEW Avg_pres_age
 				ON PS.president_id = PI.president_id
 		ORDER BY PI.president_id;
 ```
-
-
-
 </br>
 
 
 
 
-How many times has one party controlled both the senate and the house?
+* How many times has one party controlled both the senate and the house?
 <img src="https://github.com/nitromacchiato/PresidentsDatabase/blob/main/demo/party_control.PNG" />
+
 ```sql
 CREATE OR REPLACE VIEW Party_control
 	AS
