@@ -25,10 +25,10 @@ Some familiarty with MySQL and setting up a local connection
 3. Click the first thunderbolt to execute the enitre script 
     Trouble locating thunderbolt? 
     * Select Query -> Execute(All or Selected) 
-    
+
 4. Refresh your schema 
 
-
+* To install [PresidentDB_Quries](https://github.com/nitromacchiato/PresidentsDatabase/blob/main/PresidentDB_Queries.sql) you follow the same instructions but use this file instead 
 
 ## Examples 
 
