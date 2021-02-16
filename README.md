@@ -18,12 +18,15 @@ Some familiarty with MySQL and setting up a local connection
 
 
 ## Installation 
-Open or Copy [PreisdentsDB](https://github.com/nitromacchiato/PresidentsDatabase/blob/main/PresidentDB.sql)
-Open [MySQLWorkbench](https://dev.mysql.com/downloads/workbench/) and connect/create your local connection
-Click the first thunderbolt to execute the enitre script 
+1. Download and open or copy [PreisdentsDB](https://github.com/nitromacchiato/PresidentsDatabase/blob/main/PresidentDB.sql)
+
+2. Open [MySQLWorkbench](https://dev.mysql.com/downloads/workbench/) and connect/create your local connection
+
+3. Click the first thunderbolt to execute the enitre script 
     Trouble locating thunderbolt? 
     * Select Query -> Execute(All or Selected) 
-Refresh your schema 
+    
+4. Refresh your schema 
 
 
 
