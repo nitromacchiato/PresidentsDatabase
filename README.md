@@ -65,6 +65,7 @@ CREATE OR REPLACE VIEW President_VS_Lady_height
 
 
 How does the Presidents age compare to the Vice presidents at the end of their terms through the years of presidency?
+</br>
 <img src="https://github.com/nitromacchiato/PresidentsDatabase/blob/main/demo/avg_pres_age.PNG" />
 
 
