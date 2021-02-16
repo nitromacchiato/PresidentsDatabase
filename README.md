@@ -38,7 +38,7 @@ Some familiarty with MySQL and setting up a local connection
 How does the President’s height compare to the First Lady?
 
 
-<img src="demo/first_lady_president.PNG" />
+<img src="https://github.com/nitromacchiato/PresidentsDatabase/blob/main/demo/first_lady_president_view.PNG" />
 
 
 ```sql 
