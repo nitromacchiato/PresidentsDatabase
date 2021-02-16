@@ -33,6 +33,9 @@ Some familiarty with MySQL and setting up a local connection
 
 ## Examples 
 
+
+
+
 ### Views 
 
 How does the President’s height compare to the First Lady?
@@ -56,4 +59,54 @@ CREATE OR REPLACE VIEW President_VS_Lady_height
 ```
 
 
+</br>
 
+
+
+
+How does the Presidents age compare to the Vice presidents at the end of their terms through the years of presidency?
+<img src="https://github.com/nitromacchiato/PresidentsDatabase/blob/main/demo/avg_pres_age.PNG" />
+
+
+```sql
+CREATE OR REPLACE VIEW Avg_pres_age
+	AS
+		SELECT CONCAT(PI.first_name, ", ", PI.last_name) AS "President Name",
+		       CONCAT(VP.vp_first_name, ", ", VP.vp_last_name) AS "Vice President Name",
+		       ROUND((DATEDIFF(PS.term_year_end, PI.DoB) / 365), 0) AS "President Age",
+			   ROUND((DATEDIFF(PS.term_year_end, VP.DoB) / 365), 0) AS "Vice President Age"
+		FROM President_info AS PI
+			JOIN Vice_president AS VP
+				ON PI.president_id = VP.accompanying_president
+			JOIN Political_stats AS PS
+				ON PS.president_id = PI.president_id
+		ORDER BY PI.president_id;
+```
+
+
+
+</br>
+
+
+
+
+How many times has one party controlled both the senate and the house?
+<img src="https://github.com/nitromacchiato/PresidentsDatabase/blob/main/demo/party_control.PNG" />
+```sql
+CREATE OR REPLACE VIEW Party_control
+	AS
+		SELECT president_id AS "President Num",
+			   CONCAT(first_name, ", ", last_name) AS "President Name",
+			   political_affiliation AS "Political Affiliation",
+			   majority_house AS "House Majority",
+			   majority_senate AS "Senate Majority"
+		FROM President_info AS PI
+			JOIN Political_stats AS PS
+				USING(president_id)
+			JOIN Majority AS M
+				USING(president_id)
+		WHERE PS.political_affiliation = M.majority_house
+			AND
+			  PS.political_affiliation = M.majority_senate
+		ORDER BY M.majority_house, M.majority_senate;
+```
