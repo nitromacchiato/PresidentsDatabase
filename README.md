@@ -5,7 +5,7 @@ The database is designed efficiently, and organized, to include information refe
 ## Table of Contents 
 * [Requirements](#Requirements)
 * [Installation](#Installation)
-* [EntityRelationshipDiagram](#EntityRelationshipDiagram)
+* [EntityRelationshipDiagram](#ERM)
 * [Views](#Views)
 
 
