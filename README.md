@@ -8,6 +8,7 @@ The database is designed efficiently, and organized, to include information refe
 * [ERD](#ERD)
 * [Views](#Views)
 * [Refrences](#Refrences)
+* [About](#About)
 
 
 
@@ -125,3 +126,9 @@ Here are the list of refrences that were used to gather the data for the databas
 * https://history.house.gov/Institution/Party-Divisions/Party-Divisions/ 
 * https://www.senate.gov/history/partydiv.htm 
 * https://en.wikipedia.org/wiki/List_of_first_ladies_of_the_United_States 
+
+
+
+## About 
+
+This was a final team project for INST327 Database Design and Modeling. I, Andy Pineda was tasked with the database design and data scraping from the refrence sites. For data scrapping I used Python Request and BeautifulSoup4 modules. 
