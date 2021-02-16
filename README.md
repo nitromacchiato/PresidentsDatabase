@@ -32,9 +32,9 @@ Some familiarity with MySQL and setting up a local connection
 * [PresidentDB_Quries](https://github.com/nitromacchiato/PresidentsDatabase/blob/main/PresidentDB_Queries.sql) are automatically install [PreisdentsDB](https://github.com/nitromacchiato/PresidentsDatabase/blob/main/PresidentDB.sql)
 
 
-## Entity Relationship Diagram
+## ERM
 
-In order to better understand and create an efficient database an ERD was established. As the database went through modifications the main priority was applying database normalization in order to prevent repetitive data.
+In order to better understand and create an efficient database an ERD (Entity Relationship Diagram) was established. As the database went through modifications the main priority was applying database normalization in order to prevent repetitive data.
 
 <img src="https://github.com/nitromacchiato/PresidentsDatabase/blob/main/demo/president_erd.png" />
 
