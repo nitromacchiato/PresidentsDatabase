@@ -23,8 +23,8 @@ Some familiarty with MySQL and setting up a local connection
 2. Open [MySQLWorkbench](https://dev.mysql.com/downloads/workbench/) and connect/create your local connection
 
 3. Open/Paste the SQL script and click the first thunderbolt to execute the enitre script  </br> 
-Trouble locating thunderbolt? 
-* At the top Select Query -> Execute(All or Selected) 
+    Trouble locating thunderbolt? 
+    * At the top Select Query -> Execute(All or Selected) 
 
 4. Refresh your schema 
 
