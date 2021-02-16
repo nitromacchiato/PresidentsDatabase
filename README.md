@@ -24,7 +24,7 @@ Some familiarty with MySQL and setting up a local connection
 
 3. Open/Paste the SQL script and click the first thunderbolt to execute the enitre script  </br> 
     Trouble locating thunderbolt? 
-    * At the top Select Query -> Execute(All or Selected) 
+    At the top Select Query -> Execute(All or Selected) 
 
 4. Refresh your schema 
 
