@@ -34,7 +34,7 @@ Some familiarty with MySQL and setting up a local connection
 
 ## Entity Realationship Diagram
 
-<img src="https://github.com/nitromacchiato/PresidentsDatabase/blob/main/demo/president_erd.PNG" />
+<img src="https://github.com/nitromacchiato/PresidentsDatabase/blob/main/demo/president_erd.png" />
 
 
 
