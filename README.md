@@ -28,9 +28,32 @@ Some familiarty with MySQL and setting up a local connection
 
 4. Refresh your schema 
 
-* To install [PresidentDB_Quries](https://github.com/nitromacchiato/PresidentsDatabase/blob/main/PresidentDB_Queries.sql) you follow the same steps but first install and connect to the Presidents Schema following the instructions above 
+* [PresidentDB_Quries](https://github.com/nitromacchiato/PresidentsDatabase/blob/main/PresidentDB_Queries.sql) are automatically install [PreisdentsDB](https://github.com/nitromacchiato/PresidentsDatabase/blob/main/PresidentDB.sql)
 
 
 ## Examples 
 
 ### Views 
+
+How does the President’s height compare to the First Lady?
+
+<p>
+ <img src="demo/first_lady_president.png" />
+</p>
+
+```sql 
+CREATE OR REPLACE VIEW President_VS_Lady_height
+	AS
+		SELECT CONCAT(PI.first_name, ", ", PI.last_name) AS "President Name",
+		       PI.height AS "President Height",
+			   CONCAT(FL.first_name, ", ", FL.last_name) AS "First Lady",
+			   FL.height AS "First Lady Height"
+		FROM President_info AS PI
+			INNER JOIN First_lady AS FL
+				ON PI.president_id = FL.accompanying_president
+		ORDER BY PI.height DESC, FL.height DESC;
+
+```
+
+
+
